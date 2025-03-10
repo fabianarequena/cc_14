@@ -88,8 +88,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Enables editing of ticket details using input fields and a save button
 
     // Example usage
-    addSupportTicket("John Doe", "Cannot access account", "High");
-    addSupportTicket("Jane Smith", "Payment issue", "Medium");
+    addSupportTicket("Fabiana Requena", "Denied", "High");
+    addSupportTicket("Sophia Kirschner", "Accepted", "Medium");
 
     highlightHighPriorityTickets(); // Apply highlighting after tickets are added
 });
