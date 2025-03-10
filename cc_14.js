@@ -89,7 +89,7 @@ function enableEditing(ticket, nameElement, issueElement, priorityElement, editB
     ticket.replaceChild(priorityInput, priorityElement);
     ticket.replaceChild(saveButton, editButton);
 }
-// Enables editing of ticket details using input fields and a save button
+// Enables editing of ticket details using input fields and a save 
 
 // Example usage
 addSupportTicket("Sophia Kirschner", "Denied", "High");
