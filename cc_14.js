@@ -3,7 +3,6 @@
 document.addEventListener("DOMContentLoaded"), () => {
     const ticketContainer = document.getElementById("ticketContainer");
 
-    // Task 2: Adding Support Tickets Dynamically
     function addSupportTicket(customerName, issueDescription, priorityLevel) {
         const ticket = document.createElement("div");
         ticket.classList.add("ticket");
@@ -42,4 +41,13 @@ document.addEventListener("DOMContentLoaded"), () => {
     }}
     // Adds support tickets dynamically to the container
 
-    
+
+// Task 3 - Converting NodeLists to Arrays for Bulk Updates
+       function highlightHighPriorityTickets() {
+        const highPriorityTickets = Array.from(document.querySelectorAll(".high-priority"));
+        highPriorityTickets.forEach(ticket => {
+            ticket.style.border = "2px solid red";
+            ticket.style.backgroundColor = "#ffe6e6";
+        });
+    }
+    // Highlights high-priority tickets by changing their border and background color
